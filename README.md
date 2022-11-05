@@ -32,9 +32,9 @@
 * [Spring Boot JMS ActiveMQ Producer and Consumer Example](https://javatute.com/spring-boot/spring-boot-jms-activemq-producer-and-consumer-example/)
 * [詳解Springboot整合ActiveMQ（Queue和Topic兩種模式）](https://www.796t.com/article.php?id=18089)
 
-下載 ActiveMQ : http://activemq.apache.org/components/classic/download/ (下載 zip 文件並將其解壓縮)
-執行 apache-activemq-5.17.2\bin\win64\activemq.bat的檔案
-ActiveMQ 控制台 : http://localhost:8161/admin/ 帳密admin
+下載 ActiveMQ : http://activemq.apache.org/components/classic/download/ (下載 zip 文件並將其解壓縮)  
+執行 apache-activemq-5.17.2\bin\win64\activemq.bat的檔案  
+ActiveMQ 控制台 : http://localhost:8161/admin/ 帳密admin  
 
 * Spring_ActiveMQ => 使用Postmqn發送訊息
 ![image](https://user-images.githubusercontent.com/84082054/200127309-b62db102-9f38-40fd-92df-6eda7844ca8c.png)
