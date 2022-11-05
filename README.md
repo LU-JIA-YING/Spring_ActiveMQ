@@ -29,8 +29,8 @@
 - [x] MQ (CRUD)
 - [x] unit test
   
-### 1:查詢Cashi全部資料/ 2:用Id查詢Mgni/ 3:用Id查詢Cashi/ 4:Mgni動態查詢/ 5:Mgni新增/ 6:Mgni更新/ 7:Mgni刪除(輸入資料可看Json.txt)  
-### 新增、修改、刪除時，Mgni跟Cashi會連動  
+##### 1:查詢Cashi全部資料/ 2:用Id查詢Mgni/ 3:用Id查詢Cashi/ 4:Mgni動態查詢/ 5:Mgni新增/ 6:Mgni更新/ 7:Mgni刪除(輸入資料可看Json.txt)  
+##### 新增、修改、刪除時，Mgni跟Cashi會連動  
   
 * [Spring Boot JMS ActiveMQ Producer and Consumer Example](https://javatute.com/spring-boot/spring-boot-jms-activemq-producer-and-consumer-example/)
 * [詳解Springboot整合ActiveMQ（Queue和Topic兩種模式）](https://www.796t.com/article.php?id=18089)
