@@ -1,0 +1,90 @@
+{
+	"info": {
+		"_postman_id": "1610031a-ecb2-4c2e-b5ba-1fc977986c52",
+		"name": "Spring Web Service(MGN)",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "22524158"
+	},
+	"item": [
+		{
+			"name": "Find All MGN_MGNI(Json And Xml)",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/xml",
+						"type": "text",
+						"disabled": true
+					},
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"url": {
+					"raw": "http://localhost:8080/getAll",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"getAll"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ActiveMQ - Topic",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/Topic",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"Topic"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Search Target MGNI",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": null,\r\n    \"kacType\": \"1\",\r\n    \"ccy\": \"TWD\",\r\n    \"date\": \"20220929\"\r\n}\r\n\r\n// {\r\n//     \"id\": \"MGI20220930154421878\",\r\n//     \"kacType\": \"1\",\r\n//     \"ccy\": \"TWD\",\r\n//     \"date\": \"20220929\"\r\n// }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/search/Mgni",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"search",
+						"Mgni"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
