@@ -42,5 +42,5 @@ ActiveMQ 控制台 : http://localhost:8161/admin/ 帳密admin
   (V2跟V3差別在接收到的訊息用不一樣的方式解析 : V2用Gson、V3用JSONObject)
 ![ActiveMQ_V2、V3](https://user-images.githubusercontent.com/84082054/200127318-e2153724-00ba-421c-81cb-0ea31331218b.jpg)
 
-* 1:查詢Cashi全部資料/ 2:用Id查詢Mgni/ 3:用Id查詢Cashi/ 4:Mgni動態查詢/ 5:Mgni新增/ 6:Mgni更新/ 7:Mgni刪除
+* 1:查詢Cashi全部資料/ 2:用Id查詢Mgni/ 3:用Id查詢Cashi/ 4:Mgni動態查詢/ 5:Mgni新增/ 6:Mgni更新/ 7:Mgni刪除(輸入資料可看Json.txt)
 * 新增、修改、刪除時，Mgni跟Cashi會連動
